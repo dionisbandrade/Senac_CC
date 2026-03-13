@@ -53,3 +53,12 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Ignorar arquivos compilados (sem extensão no Linux)
+testetriangulo
+verificador
+jake
+
+# Ignorar objetos e bibliotecas
+*.o
+*.out
