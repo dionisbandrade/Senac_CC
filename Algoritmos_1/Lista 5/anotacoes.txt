@@ -1,0 +1,112 @@
+//EXERCICIO 2 
+
+#include <time.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int main ()
+{
+
+//VERSAO 1.0 
+    srand(time(NULL));
+
+    int rn1 = rand()%10+1 ;
+    int rn2 = rand()%10+1 ;
+    int rn3 = rand()%10+1 ;
+
+    printf("o primeiro número sorteado é %d", rn1);
+    scanf("%d", &rn1);
+    printf("o segundo numero aleatório é %d", rn2);
+    scanf("%d", &rn2);
+    printf("o terceiro numero é %d", rn3);
+    scanf("%d", rn3);
+    
+    return: 0 ; 
+}
+
+//VERSAO 2.0 
+
+#include <time.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int main ()
+{
+    srand(time(NULL));
+
+    int rn1 = rand()%10+1 ;  int rn2 = rand()%10+1 ; int rn3 = rand()%10+1 ;
+
+    printf("os números sorteados são %d, %d e %d", rn1, rn2, rn3);
+    
+    return: 0 ; 
+}
+
+// E X E R C I C I O 3
+//V E R S A 0 1.0
+
+#include <time.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int main ()
+{
+
+#include <time.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int main ()
+{
+rand(time(NULL));
+
+    int rn1 = rand()%10+1 ;  int rn2 = rand()%10+1 ; int rn3 = rand()%10+1 ;
+
+    printf("os números sorteados são %d, %d e %d", rn1, rn2, rn3);
+        if(rn1 < rn2+rn3 && rn2 < rn1+rn3 && rn3 < rn1+rn3) {
+            printf("a soma dos números %d, %d e %d, é um triângulo", rn1, rn2, rn3);
+
+        }
+            else{
+                printf("nao é equilatero");
+
+            }
+
+
+
+
+    return: 0 ; 
+}
+
+//V E R S A O 2.0
+
+#include <time.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int main ()
+{
+rand(time(NULL));
+
+    int rn1 = rand()%10+1 ;  int rn2 = rand()%10+1 ; int rn3 = rand()%10+1 ;
+
+    printf("os números sorteados são %d, %d e %d", rn1, rn2, rn3);
+        if(rn1 < rn2+rn3 && rn2 < rn1+rn3 && rn3 < rn1+rn3) {
+            printf("a soma dos números %d, %d e %d, é um triângulo", rn1, rn2, rn3);
+
+        }
+            else{
+                printf("nao é triângulo");
+
+            }
+
+
+
+
+    return 0 ; 
+}
+
+
+
+
+
+
