@@ -14,4 +14,4 @@ Bem-vindo ao meu repositório de estudos! Este espaço é dedicado a centralizar
 * **Versionamento:** Git & GitHub.
 
 ---
-*Repositório mantido por **Dionis Borges de Andrade**.*
+*Repositório mantido por **Dionis Borges**.*
